@@ -57,15 +57,23 @@ h2 {
     font-size: 20px;
     color: white;
     padding: 30px;
+    position: relative;
 }
 
 ul li {
-    padding: 10px;
     list-style: none;
-    
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
 }
 
 ul li::before {
-    background: url("images/check-box-empty.png") no-repeat;
-    
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url("images/check-box-empty.png");
+    background-size: cover;
+    top: 5px;
+    left: -40px;
 }
