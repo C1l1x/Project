@@ -40,6 +40,7 @@ h2 {
     height: 50px;
     padding: 30px;
     font-size: 20px;
+    color: white;
 }
 
 #button {
@@ -58,6 +59,14 @@ h2 {
     padding: 30px;
 }
 
-#task {
+ul li {
     padding: 10px;
+    list-style: none;
 }
+
+ul li::before {
+    background-image: url("images/check-box.jpg");
+    height: 20px;
+    width: 20px;
+}
+
