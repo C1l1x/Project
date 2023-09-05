@@ -7,14 +7,19 @@
 .background{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(150deg, darkblue, purple);
+    background: rgb(43, 43, 43);
     padding: 1px;
 }
 
+h2 {
+    color: white;
+    margin: 50px 200px;
+}
+
 .ToDo-box{
-    background: rgba(0, 0, 0, 0.26);
+    background: rgba(53, 53, 53, 0.47);
     width: 40%;
-    margin: 100px auto 20px;
+    margin: 200px auto 20px;
     border-radius: 30px;
     padding: 50px;
 }

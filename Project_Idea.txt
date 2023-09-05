@@ -1,8 +1,0 @@
-To-Do List Project
-
-Functions:
-    Add Task
-    Mark task as done
-    Delete task
-
-    Save created tasks 
