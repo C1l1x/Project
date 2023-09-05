@@ -62,11 +62,10 @@ h2 {
 ul li {
     padding: 10px;
     list-style: none;
+    
 }
 
 ul li::before {
-    background-image: url("images/check-box.jpg");
-    height: 20px;
-    width: 20px;
+    background: url("images/check-box-empty.png") no-repeat;
+    
 }
-
