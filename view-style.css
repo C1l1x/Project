@@ -77,3 +77,18 @@ ul li::before {
     top: 5px;
     left: -40px;
 }
+
+ul li.done {
+    color: greenyellow;
+}
+
+ul li.done::before {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    background-image: url("images/green-check-mark-icon-with-circle-tick-box-check-list-circle-frame-checkbox-symbol-sign-png.webp");
+    background-size: cover;
+    top: 7px;
+    left: -46px;
+}

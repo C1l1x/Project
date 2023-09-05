@@ -7,3 +7,8 @@ function addTask() {
     listTask.appendChild(task);
     userInput.value = "";
 }
+
+listTask.addEventListener("click", function() {
+    const li = document.getElementById("li");
+    li.classList.toggle("done");
+});
